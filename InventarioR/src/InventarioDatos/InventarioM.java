@@ -371,7 +371,7 @@ public class InventarioM extends javax.swing.JFrame {
     public static Connection ConnectDb(){
         try{
             Class.forName("org.sqlite.JDBC");
-            Connection conn = DriverManager.getConnection("jdbc:sqlite:/root/Documentos/Datos/Inventarios");
+            Connection conn = DriverManager.getConnection("jdbc:sqlite:https://drive.google.com/file/d/1GkCZpIu8J93EpiDQX_P5wOrt8Lp7GABV/view?usp=sharing");
             return conn;
         }
         catch(Exception e){
