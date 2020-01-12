@@ -1,1 +1,1 @@
-Estructura
+Proyecto Estructura de Datos
